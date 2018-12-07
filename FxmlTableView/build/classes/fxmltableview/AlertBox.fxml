@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="124.0" prefWidth="401.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="fxmltableview.AlertBoxController">
+   <children>
+      <ImageView fitHeight="72.0" fitWidth="98.0" layoutX="25.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@right.png" />
+         </image>
+      </ImageView>
+      <TextFlow fx:id="text" layoutX="137.0" layoutY="24.0" prefHeight="44.0" prefWidth="251.0">
+         <children>
+            <Text fx:id="textData" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="70.0" />
+         </children>
+      </TextFlow>
+      <Button layoutX="336.0" layoutY="86.0" mnemonicParsing="false" onAction="#Ok" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #5585be;" text="Ok" />
+   </children>
+</AnchorPane>
